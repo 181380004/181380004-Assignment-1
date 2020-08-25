@@ -1,0 +1,57 @@
+background{
+    background-image: url("hero.jpg")
+    height:100vh;
+    margin-top:-25px;
+    .align-center{
+        text-align:center;
+    }
+
+}
+.text.center{
+    text-align : center;
+}
+.text-white{
+    color: white;
+}
+.display-1{
+    font-size:65px;
+}
+.display-2{
+    font-size: 30px;
+}
+.btn{
+    padding: 16px 32 px;
+    font-size: 25 px;
+}
+.btn-red{
+    background-color:red
+    color: white
+    border:none;
+
+}
+.btn-dark{
+      background-color:black;
+      color:white;
+      border:none;
+}
+button#explorebtn:hover{
+    background-color: black;
+}
+button#contactbtn:hover{
+background-color: red;
+}
+.navbar{
+    display: flex;
+    blackground-colour:#3a3a3a;
+}
+nav < a{
+    padding:20px;
+    color: white;
+text-decoration: none;
+
+}
+nav.navbar > a:hower{
+    background-color: white;
+    color: #3a3a3a;
+    transition:ease-in-out  0.5s;
+}
