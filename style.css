@@ -18,7 +18,26 @@ background{
 }
 .display-2{
     font-size: 30px;
+html{
+	scroll-behavior: smooth;
 }
+body{
+	margin:0;
+	font-family:Arial;
+}
+.background{
+	background-image: url("hero.jpg");
+	bacground-size:cover;
+	background-repeat: no repeat;
+	height: 100vh;
+}
+.align-center{
+padding-top:250px;
+}
+.text-center{
+text-align: center;
+}
+
 .btn{
     padding: 16px 32 px;
     font-size: 25 px;
@@ -54,4 +73,47 @@ nav.navbar > a:hower{
     background-color: white;
     color: #3a3a3a;
     transition:ease-in-out  0.5s;
+}
+.main{
+display:flex;
+background-color:brown;
+}
+.ig{
+text-algin: right;
+width: 50%;
+length:100;
+}
+.hh{
+text-align:center;
+}
+.next{
+text-align:center;
+background-color:brown;
+}
+.ig2{
+ padding:30px;
+width:30%;
+margin:50px;
+}
+.ig3{
+padding:30px;
+width:30%;
+margin:50;
+}
+.ig4{
+padding:30px;
+width:30;
+margin:50;
+}
+.co{
+text-align:center;
+}
+.abc{
+display: flex;
+}
+.bc{
+background-color:gainsboro;
+}
+.na{
+margin: 300px;
 }
